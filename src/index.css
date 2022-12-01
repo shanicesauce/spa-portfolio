@@ -179,6 +179,7 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 .space-between {
@@ -286,7 +287,7 @@ button {
 
 a {
   border-radius: 5px;
-  color: var(--primary);
+  color: var(--secondary);
   font-weight: 800;
   padding: 2px 4px;
   margin-left: -2px;
@@ -298,7 +299,7 @@ a {
 }
 
 footer {
-  background: var(--primary);
+  background: var(--light);
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -323,8 +324,12 @@ footer div {
   color: var(--darker);
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content:flex-start;
   padding-bottom: 35px;
+}
+
+#resume h1, #resume a{
+  justify-content: center;
 }
 
 #about * {
@@ -333,4 +338,36 @@ footer div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 30px;
 }
+
+#welcome *{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container{ 
+  display: flex;
+  height: 80vh;
+  width: 60vw; 
+  align-items: center;
+  justify-content: center;
+  }
+
+  .about:focus{
+    color:var(--secondary)
+  }
+  .contact:focus{
+    color:var(--secondary)
+  }
+  .portfolio:focus{
+    color:var(--secondary)
+  }
+  .resume:focus{
+    color:var(--secondary)
+  }
+
+  .enthusiast:hover{
+    
+  }

@@ -4,8 +4,8 @@ import resume from '../../assets/resume.pdf';
 const Resume = () => {
   return (
     <div id="resume">
-      <h4 className="title">(◍•ᴗ•◍) Resume </h4>{" "}
-      <a href={resume}> Click Me </a>
+      <h1 className="title">(◍•ᴗ•◍) Resume </h1>{" "}
+      <a href={resume}> Click for Resume </a>
       <p>
         Front-End Proficiencies <br />
         •HTML <br />
@@ -15,7 +15,6 @@ const Resume = () => {
         •JQuery <br />
         •React <br />
         •Bootstrap
-        <br />
       </p>
       <p>
         Back-End Proficiencies <br />

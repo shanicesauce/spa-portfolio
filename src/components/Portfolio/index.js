@@ -9,8 +9,8 @@ import noteTaker from "../../assets/images/noteTaker.png";
 function Portfolio() {
   return (
     <>
-      <div className="col-lg-8 col-md-12 mb-2">
-        <div className="card d-flex justify-content-end">
+      <div className="col">
+        <div className="card">
           <img
             className="card-img-top"
             src={enthusiast}

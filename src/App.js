@@ -7,28 +7,29 @@ import ContactForm from "./components/Contact";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume";
 import Welcome from "./components/Welcome";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, HashRouter } from "react-router-dom";
 import "./App.css";
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
 
-
   return (
-    <div>
-      <Nav
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-      <Router>
-        <Route exact path="/" component={Welcome} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={ContactForm} />
-        <Route exact path="/resume" component={Resume} />
-      </Router>
-      <Footer />
-    </div>
+    <HashRouter basename="/">
+      <div>
+        <Nav
+          contactSelected={contactSelected}
+          setContactSelected={setContactSelected}
+        ></Nav>
+        <Router>
+          <Route exact path="/" component={Welcome} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={ContactForm} />
+          <Route exact path="/resume" component={Resume} />
+        </Router>
+        <Footer />
+      </div>
+    </HashRouter>
   );
 }
 

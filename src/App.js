@@ -21,11 +21,11 @@ function App() {
           setContactSelected={setContactSelected}
         ></Nav>
         <Router>
-          <Route exact path="/#/" component={Welcome} />
-          <Route exact path="/#/about" component={About} />
-          <Route exact path="/#/portfolio" component={Portfolio} />
-          <Route exact path="/#/contact" component={ContactForm} />
-          <Route exact path="/#/resume" component={Resume} />
+          <Route exact path="/#/" element={Welcome} />
+          <Route exact path="/#/about" element={About} />
+          <Route exact path="/#/portfolio" element={Portfolio} />
+          <Route exact path="/#/contact" element={ContactForm} />
+          <Route exact path="/#/resume" element={Resume} />
         </Router>
         <Footer />
       </div>

@@ -14,7 +14,7 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
 
   return (
-    <HashRouter basename="/">
+    <HashRouter basename="/#">
       <div>
         <Nav
           contactSelected={contactSelected}

@@ -42,7 +42,7 @@ const Nav = (props) => {
             <a
               className="portfolio"
               data-testid="portfolio"
-              href="portfolio"
+              href="#/portfolio"
               onClick={() => {
                 setContactSelected(false);
               }}

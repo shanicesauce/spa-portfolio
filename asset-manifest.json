@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/spa-portfolio/static/css/main.ef4d23e8.css",
-    "main.js": "/spa-portfolio/static/js/main.d07a4be1.js",
+    "main.js": "/spa-portfolio/static/js/main.a66078ca.js",
     "static/js/787.b9d66382.chunk.js": "/spa-portfolio/static/js/787.b9d66382.chunk.js",
     "static/media/recipeFinder.png": "/spa-portfolio/static/media/recipeFinder.5c27fd54a137f9bc7a00.png",
     "static/media/contactCards.png": "/spa-portfolio/static/media/contactCards.f927449a56adc161eb32.png",
@@ -12,11 +12,11 @@
     "static/media/Jate.png": "/spa-portfolio/static/media/Jate.704459b87fd872cbdcd3.png",
     "index.html": "/spa-portfolio/index.html",
     "main.ef4d23e8.css.map": "/spa-portfolio/static/css/main.ef4d23e8.css.map",
-    "main.d07a4be1.js.map": "/spa-portfolio/static/js/main.d07a4be1.js.map",
+    "main.a66078ca.js.map": "/spa-portfolio/static/js/main.a66078ca.js.map",
     "787.b9d66382.chunk.js.map": "/spa-portfolio/static/js/787.b9d66382.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef4d23e8.css",
-    "static/js/main.d07a4be1.js"
+    "static/js/main.a66078ca.js"
   ]
 }

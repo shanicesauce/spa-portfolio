@@ -18,7 +18,7 @@ const Nav = (props) => {
             <a
               className="about"
               data-testid="about"
-              href="about"
+              href="#/about"
               onClick={() => {
                 setContactSelected(false);
               }}
@@ -30,7 +30,7 @@ const Nav = (props) => {
             <a
               className="contact"
               data-testid="contact"
-              href="contact"
+              href="#/contact"
               onClick={() => {
                 setContactSelected(true);
               }}
@@ -54,7 +54,7 @@ const Nav = (props) => {
             <a
               className="resume"
               data-testid="resume"
-              href="resume"
+              href="#/resume"
               onClick={() => {
                 setContactSelected(false);
               }}

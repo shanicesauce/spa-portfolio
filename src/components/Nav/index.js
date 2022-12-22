@@ -6,10 +6,8 @@ const Nav = (props) => {
   return (
     <header className="flex-row px-1">
       <h2>
-        <h1 data-testid="link" href="/">
-          <span role="img" aria-label="camera">
+        <h1 role="img" aria-label="camera">
             (*ᴗ͈ˬᴗ͈)ꕤ*.ﾟ Shanice .*ೃ
-          </span>
         </h1>
       </h2>
       <nav>

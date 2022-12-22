@@ -5,11 +5,43 @@ import enthusiast from "../../assets/images/enthusiast.png";
 import recipeFinder from "../../assets/images/recipeFinder.png";
 import contactCards from "../../assets/images/contactCards.png";
 import noteTaker from "../../assets/images/noteTaker.png";
+import whatsTheRecipe from "../../assets/images/whatsTheRecipe.png"
 
 function Portfolio() {
   return (
     <>
       <div className="col">
+      <div className="card">
+          <img
+            className="card-img-top"
+            src={whatsTheRecipe}
+            alt="What is the Recipe Thumbnail"
+            height="250px"
+            width="569px"
+          />
+          <h1 className="card-title text-center" style={{ padding: "5px" }}>
+            What is the Recipe
+          </h1>
+          <div className="card-body text-center">
+            <a
+              href="https://protected-atoll-82762.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="card-link d-inline-flex"
+            >
+              App 
+            </a>
+            |
+            <a
+              href="https://github.com/dlope0831/what-is-the-recipe"
+              target="_blank"
+              rel="noreferrer"
+              className="card-link d-inline-flex"
+            >
+              Repo
+            </a>
+          </div>
+        </div>
         <div className="card">
           <img
             className="card-img-top"

@@ -6,11 +6,11 @@ const Nav = (props) => {
   return (
     <header className="flex-row px-1">
       <h2>
-        <a data-testid="link" href="/">
+        <h1 data-testid="link" href="/">
           <span role="img" aria-label="camera">
             (*ᴗ͈ˬᴗ͈)ꕤ*.ﾟ Shanice .*ೃ
           </span>
-        </a>
+        </h1>
       </h2>
       <nav>
         <ul className="flex-row">

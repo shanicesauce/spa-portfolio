@@ -16,7 +16,7 @@ const Footer = () => {
             <img src={linkedin} alt="linkedin"></img>
         </a>
                     
-        <a href="mailto:shanicesaucedaworks@gmail.com"> 
+        <a href="mailto:shanicesauce@gmail.com"> 
         <img src={gmail} alt="gmail"></img> </a>
       </p>
 

@@ -37,7 +37,7 @@ function ContactForm() {
     }
   
     return (
-      <section >
+      <section>
         <h1>Contact me</h1>
         <form id="contact-form" onSubmit={handleSubmit}>
           <div>
@@ -59,7 +59,7 @@ function ContactForm() {
             />
           </div>
           <div>
-            <label htmlFor="message"> Message: </label>
+            <label htmlFor="message" className="input"> Message: </label>
             <textarea
               name="message"
               rows="5"

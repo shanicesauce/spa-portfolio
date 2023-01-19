@@ -1,15 +1,13 @@
 import React from "react";
 
-const Nav = (props) => {
+const Navigation = (props) => {
   const { contactSelected, setContactSelected } = props;
 
   return (
     <header className="flex-row px-1">
-      <h2>
-        <h1 role="img" aria-label="camera">
-            (*ᴗ͈ˬᴗ͈)ꕤ*.ﾟ Shanice .*ೃ
-        </h1>
-      </h2>
+        <h2 role="img" aria-label="camera">
+            <a href='#/'> (*ᴗ͈ˬᴗ͈)ꕤ*.ﾟShanice.*ೃ </a>
+        </h2>
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
@@ -66,4 +64,4 @@ const Nav = (props) => {
   );
 };
 
-export default Nav;
+export default Navigation;

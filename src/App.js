@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import About from "./components/About";
-import Nav from "./components/Nav";
+import Navigation from "./components/Nav";
 import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
 import Footer from "./components/Footer";
@@ -10,15 +10,16 @@ import Welcome from "./components/Welcome";
 import { HashRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 
+
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
 
   return (
       <div>
-        <Nav
+        <Navigation
           contactSelected={contactSelected}
           setContactSelected={setContactSelected}
-        ></Nav>
+        ></Navigation>
         <Router>
           <Route exact path="/" component={Welcome} />
           <Route exact path="/about" component={About} />

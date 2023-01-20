@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { validateEmail } from "../../utils/helpers";
 
+
 function ContactForm() {
   const form = useRef();
 
@@ -38,10 +39,10 @@ function ContactForm() {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_qsg9vsg",
-        "contact_form",
+        process.env.REACT_APP_YOUR_SERVICE_ID,
+        process.env.REACT_APP_YOUR_TEMPLATE_ID,
         form.current,
-        "qpAjQVhXC12yxuuL_"
+        process.env.REACT_APP_YOUR_PUBLIC_KEY,
       )
       .then(
         (result) => {

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/spa-portfolio/static/css/main.438d5c6f.css",
-    "main.js": "/spa-portfolio/static/js/main.4af9805d.js",
+    "main.js": "/spa-portfolio/static/js/main.bc02f860.js",
     "static/js/787.b9d66382.chunk.js": "/spa-portfolio/static/js/787.b9d66382.chunk.js",
     "static/media/recipeFinder.png": "/spa-portfolio/static/media/recipeFinder.5c27fd54a137f9bc7a00.png",
     "static/media/whatsTheRecipe.png": "/spa-portfolio/static/media/whatsTheRecipe.2b1bde66139a294ddc20.png",
@@ -13,11 +13,11 @@
     "static/media/Jate.png": "/spa-portfolio/static/media/Jate.704459b87fd872cbdcd3.png",
     "index.html": "/spa-portfolio/index.html",
     "main.438d5c6f.css.map": "/spa-portfolio/static/css/main.438d5c6f.css.map",
-    "main.4af9805d.js.map": "/spa-portfolio/static/js/main.4af9805d.js.map",
+    "main.bc02f860.js.map": "/spa-portfolio/static/js/main.bc02f860.js.map",
     "787.b9d66382.chunk.js.map": "/spa-portfolio/static/js/787.b9d66382.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.438d5c6f.css",
-    "static/js/main.4af9805d.js"
+    "static/js/main.bc02f860.js"
   ]
 }

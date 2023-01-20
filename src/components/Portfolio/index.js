@@ -90,7 +90,7 @@ function Portfolio() {
               </a>
               
             </div>
-            <h4> Technologies Used: </h4>
+            <h4> Technologies: </h4>
             <h5> {project.technologies} </h5>
           </div>
 

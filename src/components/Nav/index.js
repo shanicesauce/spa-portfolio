@@ -6,7 +6,7 @@ const Navigation = (props) => {
   return (
     <header className="flex-row px-1">
         <h2 role="img" aria-label="camera">
-            <a href='#/'> (*ᴗ͈ˬᴗ͈)ꕤ*.ﾟShanice.*ೃ </a>
+            <a href='#/portfolio'> (*ᴗ͈ˬᴗ͈)ꕤ*.ﾟShanice.*ೃ </a>
         </h2>
       <nav>
         <ul className="flex-row">

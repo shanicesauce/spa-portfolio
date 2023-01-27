@@ -13,6 +13,7 @@ function Portfolio() {
   const projects = [
     {
       name: "What is the Recipe",
+      about: "Allows users to explore new recipes from various cuisines. If the user doesn’t know what they are looking for, they can click the top trending food images located on the main page for inspiration.​",
       src:  whatsTheRecipe ,
       app: "https://protected-atoll-82762.herokuapp.com/",
       github: "https://github.com/dlope0831/what-is-the-recipe",
@@ -70,6 +71,7 @@ function Portfolio() {
             <h1 className="title text-center" style={{ padding: "5px" }}>
               {project.name}
             </h1>
+            {project.about}
             <div className="body text-center">
               <a
                 href={project.app}

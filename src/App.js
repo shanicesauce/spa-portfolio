@@ -8,7 +8,8 @@ import Footer from "./components/Footer";
 import Resume from "./components/Resume";
 import Welcome from "./components/Welcome";
 import { HashRouter as Router, Route } from "react-router-dom";
-import "./App.css";
+
+
 
 
 function App() {

@@ -46,13 +46,13 @@ function Portfolio() {
       github: "https://github.com/shanicesauce/note-taker",
       technologies: "Webpack, CSS, JavaScript, HTML"
     },
-    // {
-    //   name: "Contact cards",
-    //   src:  contactCards ,
-    //   app: "https://evening-earth-50966.herokuapp.com/",
-    //   github: "https://github.com/shanicesauce/contact-cards",
-    //   technologies: ""
-    // },
+    {
+      name: "Contact cards",
+      src:  contactCards ,
+      app: "https://evening-earth-50966.herokuapp.com/",
+      github: "https://github.com/shanicesauce/contact-cards",
+      technologies: "Webpack, Workbox, IndexedDB, JavaScript "
+    },
   ];
   return (
     <>

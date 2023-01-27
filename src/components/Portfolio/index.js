@@ -1,5 +1,4 @@
 import React from "react";
-
 import {Stack } from "react-bootstrap";
 
 import jate from "../../assets/images/Jate.png";
@@ -48,12 +47,13 @@ function Portfolio() {
       github: "https://github.com/shanicesauce/note-taker",
       technologies: "Webpack, CSS, JavaScript, HTML"
     },
-    {
-      name: "Contact cards",
-      src:  contactCards ,
-      app: "https://evening-earth-50966.herokuapp.com/",
-      github: "https://github.com/shanicesauce/contact-cards",
-    },
+    // {
+    //   name: "Contact cards",
+    //   src:  contactCards ,
+    //   app: "https://evening-earth-50966.herokuapp.com/",
+    //   github: "https://github.com/shanicesauce/contact-cards",
+    //   technologies: ""
+    // },
   ];
   return (
     <>

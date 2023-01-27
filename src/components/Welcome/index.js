@@ -1,10 +1,10 @@
 import React from "react";
-import bear from "../../assets/images/bear.webp";
+import shanice from "../../assets/images/shanice.jpg";
 
 const Welcome = () => {
   return (
     <div id="welcome">
-      <img src={bear} alt="cute bear" height="722px" width="500px" className="container"></img>
+      <img src={shanice} alt="shanice at hopscotch" className="container"></img>
       <p>
         <h1>Memento Mori</h1>
       </p>

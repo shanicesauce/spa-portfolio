@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/spa-portfolio/static/css/main.ef593957.css",
-    "main.js": "/spa-portfolio/static/js/main.18542329.js",
+    "main.css": "/spa-portfolio/static/css/main.e0960080.css",
+    "main.js": "/spa-portfolio/static/js/main.a946c9f0.js",
     "static/js/787.b9d66382.chunk.js": "/spa-portfolio/static/js/787.b9d66382.chunk.js",
     "static/media/recipeFinder.png": "/spa-portfolio/static/media/recipeFinder.5c27fd54a137f9bc7a00.png",
     "static/media/shanice.jpg": "/spa-portfolio/static/media/shanice.2292f135eb5dd2dde698.jpg",
@@ -11,12 +11,12 @@
     "static/media/noteTaker.png": "/spa-portfolio/static/media/noteTaker.2ab62ee09bbcd04d660a.png",
     "static/media/Jate.png": "/spa-portfolio/static/media/Jate.704459b87fd872cbdcd3.png",
     "index.html": "/spa-portfolio/index.html",
-    "main.ef593957.css.map": "/spa-portfolio/static/css/main.ef593957.css.map",
-    "main.18542329.js.map": "/spa-portfolio/static/js/main.18542329.js.map",
+    "main.e0960080.css.map": "/spa-portfolio/static/css/main.e0960080.css.map",
+    "main.a946c9f0.js.map": "/spa-portfolio/static/js/main.a946c9f0.js.map",
     "787.b9d66382.chunk.js.map": "/spa-portfolio/static/js/787.b9d66382.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef593957.css",
-    "static/js/main.18542329.js"
+    "static/css/main.e0960080.css",
+    "static/js/main.a946c9f0.js"
   ]
 }

@@ -30,7 +30,6 @@ JavaScript
 
 https://shanicesauce.github.io/spa-portfolio/
 
-![localhost_3000_](https://user-images.githubusercontent.com/107827563/204970749-d74a7999-9f1e-4228-bb26-b564922fe17c.png)
-
+![2023-01-28 (7)](https://user-images.githubusercontent.com/107827563/215251792-36f1724e-f8a8-4e2c-9fd4-9f939ad68f8f.png)
 
  

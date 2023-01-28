@@ -87,7 +87,6 @@ header {
   background: var(--primary);
   display: flex;  
   flex-wrap: wrap;
-  justify-content:flex-start;
 }
 
 .name {

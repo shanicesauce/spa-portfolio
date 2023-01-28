@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/spa-portfolio/static/css/main.438d5c6f.css",
-    "main.js": "/spa-portfolio/static/js/main.c651b778.js",
+    "main.css": "/spa-portfolio/static/css/main.ef593957.css",
+    "main.js": "/spa-portfolio/static/js/main.18542329.js",
     "static/js/787.b9d66382.chunk.js": "/spa-portfolio/static/js/787.b9d66382.chunk.js",
     "static/media/recipeFinder.png": "/spa-portfolio/static/media/recipeFinder.5c27fd54a137f9bc7a00.png",
     "static/media/shanice.jpg": "/spa-portfolio/static/media/shanice.2292f135eb5dd2dde698.jpg",
     "static/media/whatsTheRecipe.png": "/spa-portfolio/static/media/whatsTheRecipe.2b1bde66139a294ddc20.png",
     "static/media/contactCards.png": "/spa-portfolio/static/media/contactCards.f927449a56adc161eb32.png",
-    "static/media/resume.pdf": "/spa-portfolio/static/media/resume.7f429dcd0d2831e0449c.pdf",
     "static/media/enthusiast.png": "/spa-portfolio/static/media/enthusiast.5b822abf56d4418f5259.png",
     "static/media/noteTaker.png": "/spa-portfolio/static/media/noteTaker.2ab62ee09bbcd04d660a.png",
     "static/media/Jate.png": "/spa-portfolio/static/media/Jate.704459b87fd872cbdcd3.png",
     "index.html": "/spa-portfolio/index.html",
-    "main.438d5c6f.css.map": "/spa-portfolio/static/css/main.438d5c6f.css.map",
-    "main.c651b778.js.map": "/spa-portfolio/static/js/main.c651b778.js.map",
+    "main.ef593957.css.map": "/spa-portfolio/static/css/main.ef593957.css.map",
+    "main.18542329.js.map": "/spa-portfolio/static/js/main.18542329.js.map",
     "787.b9d66382.chunk.js.map": "/spa-portfolio/static/js/787.b9d66382.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.438d5c6f.css",
-    "static/js/main.c651b778.js"
+    "static/css/main.ef593957.css",
+    "static/js/main.18542329.js"
   ]
 }

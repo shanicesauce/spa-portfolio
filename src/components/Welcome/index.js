@@ -4,7 +4,7 @@ import shanice from "../../assets/images/shanice.jpg";
 const Welcome = () => {
   return (
     <div id="welcome">
-      <img src={shanice} alt="shanice at hopscotch" className="container"></img>
+      <img src={shanice} alt="shanice at hopscotch" className="img-thumbnail "></img>
       <p>
         <h1>Memento Mori</h1>
       </p>

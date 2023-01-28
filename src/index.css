@@ -78,22 +78,20 @@ p {
   margin-top: 0;
 }
 
-
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 header {
   background: var(--primary);
-  display: flex;  
+  display: flex;
   flex-wrap: wrap;
 }
 
-.name {
+.navbar-brand {
   color: var(--darker);
   font-size: 25px;
-  display: flex;
-  
+  margin: auto;
 }
 
 
@@ -117,7 +115,6 @@ span[role="img"] {
 .title {
   text-align: center;
 }
-
 
 form {
   display: flex;
@@ -145,7 +142,6 @@ input:focus {
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 
-
 nav a:hover {
   text-decoration: none;
 }
@@ -156,19 +152,11 @@ nav {
   display: inline;
 }
 
-
 textarea {
   width: 600px;
   height: 120px;
   border: 3px solid #cccccc;
   padding: 5px;
-}
-
-.container {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .flex-row {
@@ -193,9 +181,9 @@ textarea {
 
 .img-thumbnail {
   width: auto;
-  height: 300px;
-  margin-bottom: 50px;
-  cursor: pointer;
+  height: 500px;
+  margin: auto;
+  margin-top: 25px;
 }
 
 button {
@@ -210,6 +198,7 @@ button {
   padding: 10px 15px;
 }
 
+a,
 .a {
   border-radius: 5px;
   color: var(--secondary);
@@ -293,21 +282,19 @@ footer div {
 }
 
 @media screen and (max-width: 1200px) {
-  header *{
+  header * {
     font-size: 19px;
     margin: auto;
     padding: 15px;
   }
-  .name{
+  .navbar-brand {
     font-size: larger;
   }
 
-  .title{
+  .title {
     font-size: larger;
   }
-
-  .projects{
+  .projects {
     width: auto;
   }
-
 }

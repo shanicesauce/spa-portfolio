@@ -78,8 +78,7 @@ function ContactForm() {
         </div>
         <div>
           <label htmlFor="message" className="input">
-            {" "}
-            Message:{" "}
+            Message:
           </label>
           <textarea
             type="message"

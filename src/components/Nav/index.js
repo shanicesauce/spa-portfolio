@@ -1,66 +1,59 @@
 import React from "react";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 const Navigation = (props) => {
   const { contactSelected, setContactSelected } = props;
 
   return (
-    <header className="flex-row px-1">
-        <h2 role="img" aria-label="camera">
-            <a href='#/portfolio'> (*ᴗ͈ˬᴗ͈)ꕤ*.ﾟShanice.*ೃ </a>
-        </h2>
-      <nav>
-        <ul className="flex-row">
-          <li className="mx-2">
-            <a
-              className="about"
-              data-testid="about"
+    <Navbar collapseOnSelect  expand="xxl" as={"header"} fixed>
+      <Container className="flex-row px-1">
+        <Navbar.Brand href="#/portfolio" className="name">(*ᴗ͈ˬᴗ͈)ꕤ*.ﾟShanice.*ೃ</Navbar.Brand>
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          className="flex-row me-auto"
+        />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="nav d-flex">
+            <Nav.Link
               href="#/about"
+              className={`mx-3 ${contactSelected && "navActive"} a`}
               onClick={() => {
-                setContactSelected(false);
+                setContactSelected(true);
               }}
             >
               ˘³˘ About me
-            </a>
-          </li>
-          <li className={`mx-2 ${contactSelected && "navActive"}`}>
-            <a
-              className="contact"
-              data-testid="contact"
+            </Nav.Link>
+            <Nav.Link
               href="#/contact"
+              className={`mx-3 ${contactSelected && "navActive"} a`}
               onClick={() => {
                 setContactSelected(true);
               }}
             >
               Contact ◐.̃◐
-            </a>
-          </li>
-          <li className={`mx-2 ${contactSelected && "navActive"}`}>
-            <a
-              className="portfolio"
-              data-testid="portfolio"
+            </Nav.Link>
+            <Nav.Link
               href="#/portfolio"
+              className={`mx-3 ${contactSelected && "navActive"} a`}
               onClick={() => {
-                setContactSelected(false);
+                setContactSelected(true);
               }}
             >
               ʕ·ᴥ·ʔ Portfolio
-            </a>
-          </li>
-          <li className={`mx-2 ${contactSelected && "navActive"}`}>
-            <a
-              className="resume"
-              data-testid="resume"
+            </Nav.Link>
+            <Nav.Link
               href="#/resume"
+              className={`mx-3 ${contactSelected && "navActive"} a`}
               onClick={() => {
-                setContactSelected(false);
+                setContactSelected(true);
               }}
             >
               Resume ৎ୭
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 

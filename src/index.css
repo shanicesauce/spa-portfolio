@@ -78,11 +78,6 @@ p {
   margin-top: 0;
 }
 
-a {
-  color: var(--tertiary);
-  text-decoration: none;
-  font-weight: bold;
-}
 
 a:hover {
   text-decoration: underline;
@@ -90,11 +85,16 @@ a:hover {
 
 header {
   background: var(--primary);
-  display: flex;
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content:flex-start;
 }
 
-header a {
+.name {
   color: var(--darker);
+  font-size: 25px;
+  display: flex;
+  
 }
 
 
@@ -146,9 +146,6 @@ input:focus {
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 
-li {
-  list-style: none;
-}
 
 nav a:hover {
   text-decoration: none;
@@ -157,11 +154,9 @@ nav a:hover {
 nav {
   display: flex;
   justify-content: right;
-}
-nav li {
   display: inline;
-  cursor: pointer;
 }
+
 
 textarea {
   width: 600px;
@@ -192,51 +187,6 @@ textarea {
   justify-content: flex-end;
 }
 
-.mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
-}
-
-.mx-2 {
-  margin-right: var(--spacing-two);
-  margin-left: var(--spacing-two);
-}
-
-.my-1 {
-  margin-top: var(--spacing-one);
-  margin-bottom: var(--spacing-one);
-}
-
-.my-2 {
-  margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
-}
-
-.my-5 {
-  margin-top: var(--spacing-five);
-  margin-bottom: var(--spacing-five);
-}
-
-.px-1 {
-  padding-right: var(--spacing-one);
-  padding-left: var(--spacing-one);
-}
-
-.px-2 {
-  padding-right: var(--spacing-two);
-  padding-left: var(--spacing-two);
-}
-
-.py-1 {
-  padding-top: var(--spacing-one);
-  padding-bottom: var(--spacing-one);
-}
-
-.py-2 {
-  padding-top: var(--spacing-two);
-  padding-bottom: var(--spacing-two);
-}
-
 .card {
   width: 25%;
   text-align: center;
@@ -247,32 +197,6 @@ textarea {
   height: 300px;
   margin-bottom: 50px;
   cursor: pointer;
-}
-
-.modalBackdrop {
-  background: rgba(0, 0, 0, 0.65);
-  bottom: 0;
-  left: 0;
-  overflow: auto;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 1;
-}
-
-.modalContainer {
-  background: var(--darker);
-  border-radius: 5px;
-  max-width: 100%;
-  margin: 50px auto;
-  padding: 15px;
-  width: 960px;
-}
-
-.modalTitle {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 25px;
 }
 
 button {
@@ -287,7 +211,7 @@ button {
   padding: 10px 15px;
 }
 
-a {
+.a {
   border-radius: 5px;
   color: var(--secondary);
   font-weight: 800;
@@ -348,14 +272,6 @@ footer div {
   justify-content: space-around;
 }
 
-/* .container {
-  display: flex;
-  height: 80vh;
-  width: 60vw;
-  align-items: center;
-  justify-content: center;
-} */
-
 .about:focus {
   color: var(--secondary);
 }
@@ -377,21 +293,16 @@ footer div {
   width: 45rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   header *{
-    font-size: 25px;
+    font-size: 19px;
     margin: auto;
+    padding: 15px;
   }
-  header a {
-    text-decoration: underline solid black;
+  .name{
+    font-size: larger;
   }
-  header h2 a {
-    text-decoration: none;
-  }
-  form {
-    resize:vertical;
-    overflow-y: scroll;
-  }
+
   .title{
     font-size: larger;
   }

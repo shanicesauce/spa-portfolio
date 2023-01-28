@@ -3,7 +3,7 @@ import React from "react";
 const Resume = () => {
   return (
     <div id="resume">
-      <h1 className="title">(◍•ᴗ•◍) Resume </h1>
+      <h1 className="title">(◍•ᴗ•◍) My Resume </h1>
       <a href="https://docs.google.com/document/d/1QeuHmiAbvzxjTnXb0Do0uV5CnjHoTpX4HI_s3smKC8A/edit?usp=sharing"> ( ˘ ³˘)♥ Resume </a>
       <p>
         Front-End Proficiencies <br />

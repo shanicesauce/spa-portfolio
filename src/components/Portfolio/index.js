@@ -10,16 +10,16 @@ import whatsTheRecipe from "../../assets/images/whatsTheRecipe.png";
 
 function Portfolio() {
   const projects = [
-    {
-      name: "What is the Recipe",
-      about:
-        "Allows users to explore new recipes from various cuisines. If the user doesn’t know what they are looking for, they can click the top trending food images located on the main page for inspiration.​",
-      src: whatsTheRecipe,
-      app: "https://protected-atoll-82762.herokuapp.com/",
-      github: "https://github.com/dlope0831/what-is-the-recipe",
-      technologies:
-        "React, Semantics UI, Bootstrap, Apollo-server, Graphql, Node, Express",
-    },
+    // {
+    //   name: "What is the Recipe",
+    //   about:
+    //     "Allows users to explore new recipes from various cuisines. If the user doesn’t know what they are looking for, they can click the top trending food images located on the main page for inspiration.​",
+    //   src: whatsTheRecipe,
+    //   app: "https://protected-atoll-82762.herokuapp.com/",
+    //   github: "https://github.com/dlope0831/what-is-the-recipe",
+    //   technologies:
+    //     "React, Semantics UI, Bootstrap, Apollo-server, Graphql, Node, Express",
+    // },
     {
       name: "Enthusiast",
       about:"A social media application designed to connect people based their hobbies and interests.",

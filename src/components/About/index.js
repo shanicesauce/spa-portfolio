@@ -5,22 +5,20 @@ const About = () => {
     <section className="my-5" id="about">
       <h1 className="title"> About me ૮•ﻌ-ა </h1>
       <p>
-        Hello! My name is Shanice Sauceda. I prefer They/She pronouns. I was
+        Hello! My name is Shanice Sauceda. I was
         born and Raised in San Antonio Texas, I am a 25 year old emerging full
         stack developer eagerly expanding into new technologies.
       </p>
+      <p>Bharani nakshatra ♀️ </p>
       <p>
-        Capricorn ☉ <br /> Taurus ☾ <br /> Virgo ↑
-      </p>
-      <p>
-        I completed the UTSA Full Stack Web Development Bootcamp in December
-        2022. My portfolio is a taste of what I have learned from this program
-        and I hope you enjoy. I enjoy my leasure time by reading, connecting
-        with nature, listening to various genres of music (I am proud that
-        Beyonce was my top spotify artist last year.) and I enjoy traveling
-        although I have only been to Vegas, various Texas cities and Nairobi &
-        Mombasa,Kenya, I hope to traveling more in the future.Please contact me
-        if you have any questions
+        Full-stack web developer with a background in cosmetology and customer
+        service. Trained at UTSA Coding Boot Camp, earning a certificate in
+        full-stack web development along with an Associate of Science, in
+        Computer Science. Innovative problem-solver passionate about developing;
+        focused on mobile-first design and development. Strengths in creativity,
+        comprehension, problem-solving, knowledge retention, teamwork, time
+        management, and building projects from ideation to execution.Please
+        contact me if you have any questions
       </p>
     </section>
   );

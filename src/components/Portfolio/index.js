@@ -6,7 +6,7 @@ import enthusiast from "../../assets/images/enthusiast.png";
 import recipeFinder from "../../assets/images/recipeFinder.png";
 import contactCards from "../../assets/images/contactCards.png";
 import noteTaker from "../../assets/images/noteTaker.png";
-import whatsTheRecipe from "../../assets/images/whatsTheRecipe.png";
+// import whatsTheRecipe from "../../assets/images/whatsTheRecipe.png";
 
 function Portfolio() {
   const projects = [

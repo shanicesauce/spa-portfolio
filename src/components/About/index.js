@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <section className="my-5" id="about">
-      <h1 className="title"> About Me ♥ </h1>
+      <h1 className="title"> About Me ₊˚ෆ </h1>
       <p>
         Hello! My name is Shanice Sauceda. I was
         born and Raised in San Antonio Texas, I am a 25 year old emerging full

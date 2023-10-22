@@ -15,7 +15,7 @@ const Navigation = (props) => {
           <Nav className="mx-5">
             <Nav.Link
               href="#/about"
-              className={`mx-2 ${contactSelected && "navActive"} a`}
+              className={`mx-5 ${contactSelected && "navActive"} a`}
               onClick={() => {
                 setContactSelected(true);
               }}
@@ -24,7 +24,7 @@ const Navigation = (props) => {
             </Nav.Link>
             <Nav.Link
               href="#/contact"
-              className={`mx-2 ${contactSelected && "navActive"} a`}
+              className={`mx-5 ${contactSelected && "navActive"} a`}
               onClick={() => {
                 setContactSelected(true);
               }}
@@ -33,7 +33,7 @@ const Navigation = (props) => {
             </Nav.Link>
             <Nav.Link
               href="#/portfolio"
-              className={`mx-2 ${contactSelected && "navActive"} a`}
+              className={`mx-5 ${contactSelected && "navActive"} a`}
               onClick={() => {
                 setContactSelected(true);
               }}
@@ -42,12 +42,12 @@ const Navigation = (props) => {
             </Nav.Link>
             <Nav.Link
               href="#/resume"
-              className={`mx-2 ${contactSelected && "navActive"} a`}
+              className={`mx-5 ${contactSelected && "navActive"} a`}
               onClick={() => {
                 setContactSelected(true);
               }}
             >
-              Resume ༓･*˚⁺‧͙
+              Resume
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

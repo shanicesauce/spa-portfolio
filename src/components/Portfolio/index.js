@@ -54,7 +54,7 @@ function Portfolio() {
   return (
     <>
       <Stack gap={3} className="align-items-center mx-auto">
-        <h1 className="title"> Projects </h1>
+        <h1 className="title"> Projects♡ ༘*.ﾟ </h1>
         {projects.map((project) => (
           <Card className="projects">
             <Card.Img

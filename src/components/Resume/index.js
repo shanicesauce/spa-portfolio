@@ -3,7 +3,7 @@ import React from "react";
 const Resume = () => {
   return (
     <div id="resume">
-      <h1 className="title">My Resume </h1>
+      <h1 className="title">⁞ My Resume ⁞</h1>
       <a href="https://docs.google.com/document/d/1GZYIjnVElssUx2le6ORu0DguamMkKnhJrc-JzcJlZG4/edit?usp=sharing">
         
         ‧₊˚✧ Resume ✧˚₊‧

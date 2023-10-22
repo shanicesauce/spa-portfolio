@@ -6,11 +6,11 @@ const Welcome = () => {
     <div id="welcome">
       <img src={shanice} alt="shanice at hopscotch" className="img-thumbnail "></img>
       <p>
-        <h3>Ca Va Bien</h3> <br/>
+        <h3>✧˖°.Ca Va Bien ⋆。°</h3> <br/>
       </p>
       <h1> Shanice Sauceda </h1>
     </div>
-  );
+  )
 };
 
 export default Welcome;

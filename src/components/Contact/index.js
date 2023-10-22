@@ -56,7 +56,7 @@ function ContactForm() {
 
   return (
     <section >
-      <h1 className="title">Contact me ★~(◠‿◕✿)</h1>
+      <h1 className="title">Contact me ♥</h1>
       <form ref={form} onSubmit={sendEmail}>
         <div>
           <label htmlFor="name"> Name: </label>

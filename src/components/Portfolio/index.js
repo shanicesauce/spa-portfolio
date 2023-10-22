@@ -54,7 +54,7 @@ function Portfolio() {
   return (
     <>
       <Stack gap={3} className="align-items-center mx-auto">
-        <h1 className="title"> My Projects (๑•́ ₃ •̀๑) </h1>
+        <h1 className="title"> Projects </h1>
         {projects.map((project) => (
           <Card className="projects">
             <Card.Img
@@ -70,7 +70,7 @@ function Portfolio() {
               >
                 {project.name}
               </Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">
+              <Card.Subtitle className="mb-2 text-dark">
                 {project.technologies}
               </Card.Subtitle>
               <Card.Text className="body text-center text-light">

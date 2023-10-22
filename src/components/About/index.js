@@ -3,13 +3,13 @@ import React from "react";
 const About = () => {
   return (
     <section className="my-5" id="about">
-      <h1 className="title"> About me ૮•ﻌ-ა </h1>
+      <h1 className="title"> About Me ♥ </h1>
       <p>
         Hello! My name is Shanice Sauceda. I was
         born and Raised in San Antonio Texas, I am a 25 year old emerging full
         stack developer eagerly expanding into new technologies.
       </p>
-      <p>Bharani nakshatra ♀️ </p>
+      <p><h5>Bharani Nakshatra ♀️ </h5></p>
       <p>
         Full-stack web developer with a background in cosmetology and customer
         service. Trained at UTSA Coding Boot Camp, earning a certificate in

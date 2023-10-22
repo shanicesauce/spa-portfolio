@@ -7,7 +7,7 @@ const Navigation = (props) => {
   return (
     <Navbar collapseOnSelect  expand="lg" as={"header"} className="d-flex" >
       <Container >
-        <Navbar.Brand href="#/portfolio" className="navbar-brand">(*ᴗ͈ˬᴗ͈)ꕤ*.ﾟShanice.*ೃ</Navbar.Brand>
+        <Navbar.Brand href="#/portfolio" className="navbar-brand">‧͙⁺˚*･༓☾ Shanice ๋࣭ㅤ ⭑</Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
         />
@@ -20,7 +20,7 @@ const Navigation = (props) => {
                 setContactSelected(true);
               }}
             >
-              ˘³˘ About me
+              About me
             </Nav.Link>
             <Nav.Link
               href="#/contact"
@@ -29,7 +29,7 @@ const Navigation = (props) => {
                 setContactSelected(true);
               }}
             >
-              Contact ◐.̃◐
+              Contact
             </Nav.Link>
             <Nav.Link
               href="#/portfolio"
@@ -38,7 +38,7 @@ const Navigation = (props) => {
                 setContactSelected(true);
               }}
             >
-              ʕ·ᴥ·ʔ Portfolio
+            Portfolio
             </Nav.Link>
             <Nav.Link
               href="#/resume"
@@ -47,7 +47,7 @@ const Navigation = (props) => {
                 setContactSelected(true);
               }}
             >
-              Resume ৎ୭
+              Resume ༓･*˚⁺‧͙
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

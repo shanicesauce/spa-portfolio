@@ -4,12 +4,12 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #ff54cc;
-  --secondary: #47d1f3;
+  --primary: #363535;
+  --secondary: #ff7ed4;
   --tertiary: #04b169;
-  --light: #ff7ed4;
-  --dark: #202020;
-  --darker: #000000;
+  --light: #000000;
+  --dark: #f873d0;
+  --darker: #ffffff;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -94,7 +94,6 @@ header {
   margin: auto;
 }
 
-
 button:hover {
   opacity: 0.8;
 }
@@ -112,14 +111,12 @@ span[role="img"] {
   cursor: default;
 }
 
-.title {
-  text-align: center;
-}
-
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0.5rem;
+  margin: 1.5rem;
 }
 
 label {
@@ -208,8 +205,12 @@ a,
   margin-right: -2px;
 }
 
+.link {
+  color: #82ff77;
+}
+
 .navActive {
-  color: var(--secondary);
+  color: var(white);
 }
 
 footer {
@@ -237,12 +238,17 @@ footer div {
   text-decoration: none;
   color: var(--darker);
   display: flex;
-  padding-bottom: 35px;
+  padding: 5px;
+  justify-content: center;
+  text-align: center;
 }
 
 #resume h1,
 #resume a {
-  justify-content: center;
+  padding: 0.5rem;
+}
+#resume a {
+  color: var(--secondary);
 }
 
 #about * {
@@ -252,25 +258,39 @@ footer div {
   flex-wrap: wrap;
   justify-content: center;
   padding: 30px;
+  margin: 35px;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+#about h1 {
+  color: var(--secondary);
+}
+#about h5 {
+  margin: -15px;
+  color: var(--secondary);
 }
 
 #welcome * {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  padding: auto;
+}
+#welcome h1 {
+  padding-bottom: 5rem;
 }
 
 .about:focus {
-  color: var(--secondary);
+  color: var(rgb(207, 207, 207));
 }
 .contact:focus {
-  color: var(--secondary);
+  color: var(rgb(207, 207, 207));
 }
 .portfolio:focus {
-  color: var(--secondary);
+  color: var(rgb(207, 207, 207));
 }
 .resume:focus {
-  color: var(--secondary);
+  color: var(rgb(207, 207, 207));
 }
 
 .projects {
@@ -281,9 +301,16 @@ footer div {
   width: 45rem;
 }
 
+.title {
+  padding-top: 3rem;
+  margin: aut;
+  text-align: center;
+  color: var(--secondary);
+}
+
 @media screen and (max-width: 1200px) {
   header * {
-    font-size: 19px;
+    font-size: 20px;
     margin: auto;
     padding: 15px;
   }
@@ -296,6 +323,9 @@ footer div {
   }
   .projects {
     width: auto;
+  }
+  #about * {
+    padding: 0;
   }
 }
 

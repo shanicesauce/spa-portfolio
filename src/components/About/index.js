@@ -18,7 +18,8 @@ const About = () => {
         focused on mobile-first design and development. Strengths in creativity,
         comprehension, problem-solving, knowledge retention, teamwork, time
         management, and building projects from ideation to execution.Please
-        contact me if you have any questions
+        contact me if you have any questions, don't be shy! 
+        If you prefer me to contact you please fill out the contact form. 
       </p>
     </section>
   );
